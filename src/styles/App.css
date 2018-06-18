@@ -9,13 +9,13 @@
   margin: 3% 0 0 20%;
   width: 500px;
   height: 80%;
-  padding: 1% 0 0 18%
+  padding: 1% 0 0 15%
   }
   
 
 .todo-header-container{
   border: 1px solid #616161;
-  width: 300px;
+  width: 400px;
   height: 41px;
   text-align: center;
 }
@@ -27,7 +27,7 @@
 .todo-addnew-container{
   margin-top: 5%;
   border: 1px solid #616161;
-  width: 300px;
+  width: 400px;
   height: 41px;
   text-align: center;
 }
@@ -39,22 +39,21 @@
 
 #todo-addnew-btn{
   float: right;
-  height: 43px;
+  height: 42px;
   width: 20%;
-  padding-top: 0;
   font-size: 30px;
 }
 
 #todo-addnew-item{
-  width: 78%;
+  width: 78.5%;
   float: left;
-  height: 37px;
+  height: 36px;
 }
 
 .todo-list-container{
   margin-top: 3%;
   border: 1px solid #616161;
-  width: 300px;
+  width: 400px;
   height: 500px;
   overflow-y: auto;
 }
@@ -62,16 +61,15 @@
 .individual-item{
   margin: 3% 0 5% 1%;
   border: 1px solid #616161;
-  width: 290px;
-  height: 43px;
-  font-size: 20px;
+  width: 390px;
+  min-height: 43px;
+  font-size: 15px;
 }
 
 .item-completed-btn{
-  float: right;
   height: 43px;
   width: 20%;
-  padding-top: 0;
+  margin-left: 80%;
   font-size: 20px;
 }
 
@@ -90,6 +88,6 @@
 }
 
 .item-data {
-  position: absolute;
   padding-top: 0.8%;
+  margin-right: 0 
 }

@@ -15,11 +15,9 @@ class App extends Component {
    */
 
   handleInputChange = e => {
-    if (e.target.value) {
-      this.setState({
-        item: e.target.value
-      });
-    }
+    this.setState({
+      item: e.target.value
+    });
   };
 
   /**
@@ -32,6 +30,10 @@ class App extends Component {
   handleNewItems = e => {
     e.preventDefault();
     const { list, item } = this.state;
+
+    if (!item) {
+      return null;
+    }
     let char = "abcde";
     let newID =
       char[Math.floor(Math.random() * char.length)] +
@@ -72,7 +74,7 @@ class App extends Component {
   };
 
   /**
-   * @function handleRemoveItem 
+   * @function handleRemoveItem
    * Handle The Removal of the item the user selects
    */
 
